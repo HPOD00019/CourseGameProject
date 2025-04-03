@@ -1,0 +1,45 @@
+# Unity generated files
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+
+# User-specific files
+[Dd]ocs/
+[Mm]etadata/
+[Pp]rojectSettings/EditorBuildSettings.asset
+
+# Visual Studio cache
+.vscode/
+*.sln
+*.suo
+*.csproj
+*.userprefs
+
+# Rider cache
+.idea/
+*.sln.iml
+
+# Mac OS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+
+# Unity Collaborate files
+Collab/
+
+# Asset Store tools
+[Aa]sset[Aa]ssets/
+[Aa]ssets/AssetStoreTools*
+
+# Other
+*.user
+*.pidb
+*.booproj
+*.pidb.meta
+*.sln.meta
+*.csproj.meta
