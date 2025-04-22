@@ -13,13 +13,14 @@ public class MovingPlatformScript : MonoBehaviour
 {
     private Dictionary<Type, IMovingPlatformState> _states;
     private IMovingPlatformState _state;
-    //======================================================================
+
     public ObservableCollection<Vector3> PlatformRoute;
     private List<Vector3> _actualRoute;
-    private Coroutine MoveToNextPoint;
-    private int PlatformRoutePointLocation;
-    private Vector3 _moveDirection;
+
+
     public float MoveSpeed;
+
+
     void Start()
     {
         EventManager.GetInstance().MovingPlatformEditModeEnter += SwitchTurn;
@@ -36,22 +37,48 @@ public class MovingPlatformScript : MonoBehaviour
         OnTurnState turnState = new OnTurnState(this, ref _actualRoute);
         DefaultState defaultState = new DefaultState(this, ref _actualRoute);
 
+        turnState.MovingSpeed = MoveSpeed;
+        defaultState.MovingSpeed = MoveSpeed;
+
 
         _states = new Dictionary<Type, IMovingPlatformState>();
         _states.Add(typeof(OnTurnState), turnState);
         _states.Add(typeof(DefaultState), defaultState);
         _state = defaultState;
+
+
+        EventManager.GetInstance().OnMovingPlatformEditModeEnter(this);
     }
 
-    void Update()
+    public void Update()
     {
         _state.MoveToTheNextPoint();
     }
 
 
-    public void SwitchTurn()
+    public void DrawRoute()
     {
-        gameObject.SetActive(!gameObject.activeSelf);
+        var n = gameObject.AddComponent<RouteVisualizer>();
+        n.Route = new List<Vector3>(PlatformRoute);
+        
+        n.DrawRoute();
+    }
+
+
+    public void SwitchTurn(MovingPlatformScript platform)
+    {
+        enabled = !enabled;
+
+        if (!enabled)
+        {
+            DrawRoute();
+        }
+        else
+        {
+            Destroy(gameObject.GetComponent<RouteVisualizer>());
+            Destroy(gameObject.GetComponent<LineRenderer>());
+        }
+
         foreach(var state in _states.Keys)
         {
             if(state != _state.GetType())
@@ -70,6 +97,8 @@ public class MovingPlatformScript : MonoBehaviour
             steps--;
         }
     }
+
+
     private void CircleRoute(object sender, EventArgs e)
     {
         List<Vector3> ans = new List<Vector3>(PlatformRoute);
@@ -77,6 +106,7 @@ public class MovingPlatformScript : MonoBehaviour
         {
             List<Vector3> routes = new List<Vector3>(ans);
             routes.Reverse();
+            routes.RemoveAt(0);// Remove the first item, equal to the last one
             ans.AddRange(routes);
         }
         _actualRoute.Clear();

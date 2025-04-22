@@ -8,37 +8,53 @@ public class MovingPlatformEditor : MonoBehaviour
     private PlatformVisualizer _visualizer;
     public MovingPlatformScript PlatformToEdit;
 
+    private List<MovingPlatformScript> _movingPlatforms;
     #region Add Route
+
+
     public void AddRoutePoint()
     {
-        AddRoutePoint((Vector3)_visualizer.GetMouseWorldPosition());
+        Vector3? v = _visualizer.GetMouseWorldPosition();
+        if (v != null) AddRoutePoint((Vector3)v);
     }
+
+
     public void AddRoutePoint(Vector3 newPoint)
     {
         PlatformToEdit.PlatformRoute.Add(newPoint);
-    }
-    #endregion
-    public void OnEditModeTurn()
-    {
-        EventManager.GetInstance().OnMovingPlatformEditModeEnter();
-        gameObject.SetActive(true);
-    }
-    public void OnEditModeTurnOff()
-    {
-        EventManager.GetInstance().OnMovingPlatformEditModeExit();
-
-        gameObject.SetActive(false);
-    }
-    private void Start()
-    {
-        _visualizer = FindAnyObjectByType<PlatformVisualizer>();
-        gameObject.SetActive(false);
-    }
-    private void Update()
-    {
-        if (Input.GetKey(KeyCode.KeypadEnter))
+        foreach (var script in _movingPlatforms)
         {
-            OnEditModeTurnOff();
+            script.MakeAStep();
+        }
+    }
+
+
+    #endregion
+    public void OnEditModeSwitch(MovingPlatformScript platform)
+    {
+        _movingPlatforms = new List<MovingPlatformScript>(FindObjectsOfType<MovingPlatformScript>());
+        PlatformToEdit = platform;
+        if (PlatformToEdit.PlatformRoute.Count == 0) AddRoutePoint();
+        enabled = !enabled;
+    }
+
+
+    public void Start()
+    {
+        this.enabled = false;
+        _visualizer = FindAnyObjectByType<PlatformVisualizer>();
+
+
+        EventManager.GetInstance().MovingPlatformEditModeEnter += OnEditModeSwitch;
+        EventManager.GetInstance().MovingPlatformEditModeExit += OnEditModeSwitch;
+    }
+
+
+    public void Update()
+    {
+        if (Input.GetMouseButtonDown(1))
+        {
+            EventManager.GetInstance().OnMovingPlatformEditModeExit(PlatformToEdit);
         }
         if(Input.GetMouseButtonDown(0))
         {

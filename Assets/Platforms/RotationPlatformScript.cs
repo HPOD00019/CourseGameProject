@@ -6,8 +6,8 @@ using UnityEngine;
 public class RotationPlatformScript : MonoBehaviour
 {
     private bool _makingRound;
-    public float rotationSpeed = 60f; // Скорость поворота в градусах в секунду
-    public float rotationAngle = 360f; // Угол поворота в градусах
+    public float rotationSpeed = 60f; 
+    public float rotationAngle = 360f; 
 
     private void Start()
     {
@@ -29,19 +29,17 @@ public class RotationPlatformScript : MonoBehaviour
         float totalRotation = 0f;
         while (totalRotation < rotationAngle)
         {
-            // Рассчитываем поворот за текущий кадр
             float rotationThisFrame = rotationSpeed * Time.deltaTime;
 
-            // Ограничиваем поворот до нужного угла
             if (totalRotation + rotationThisFrame > rotationAngle)
             {
                 rotationThisFrame = rotationAngle - totalRotation;
             }
 
-            transform.Rotate(Vector3.right, rotationThisFrame); // Поворачиваем вокруг оси Y
-            totalRotation += rotationThisFrame; // Обновляем общий угол поворота
+            transform.Rotate(Vector3.right, rotationThisFrame); 
+            totalRotation += rotationThisFrame; 
 
-            yield return null; // Ждем следующего кадра
+            yield return null; 
         }
         _makingRound = false;
         yield break;

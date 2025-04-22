@@ -7,9 +7,9 @@ using LevelEditor.MovingPlatformRoute;
 public class PlatformVisualizer : MonoBehaviour
 {
     public GameObject ObjectToTrack;
-    public GameObject ObjectToSpawn;
+    public Spawner ObjectSpawner;
     public GameObject Plane;
-    public MovingPlatformEditor mv;
+
 
     public Vector3? GetMouseWorldPosition()
     {
@@ -29,35 +29,56 @@ public class PlatformVisualizer : MonoBehaviour
         }
         return ans;
     }
+
+
     public void SpawnObject()
     {
         Vector3? location = GetMouseWorldPosition();
-        if (location!=null)
-        {
-            GameObject newObj = Instantiate(ObjectToSpawn);
-            newObj.transform.position = (Vector3)location;
-            //=================================
-            mv.PlatformToEdit = newObj.GetComponent<MovingPlatformScript>();
-            mv.gameObject.SetActive(true);
 
-            //=================================
+
+        if(location != null)
+        {
+            ObjectSpawner.SpawnObject((Vector3)location);
         }
         
     }
+
+
     public void DragObj()
     {
         Vector3? location = GetMouseWorldPosition();
         if (location!=null) ObjectToTrack.transform.position = (Vector3)location;
     }
-    public void SwitchTurn()
+
+
+    public void SwitchTurn(MovingPlatformScript s)
     {
-        gameObject.SetActive(!gameObject.activeSelf);
+        enabled = !enabled;
+
+        if (ObjectToTrack != null)
+        {
+            MeshRenderer m = ObjectToTrack.GetComponent<MeshRenderer>();
+            Collider c = ObjectToTrack.GetComponentInChildren<Collider>();
+
+
+            if (c != null) c.enabled = enabled;
+            if (m != null) m.enabled = enabled;
+
+            ObjectToTrack.SetActive(enabled);
+
+        }
     }
+
+
     private void Start()
     {
+        ObjectSpawner = FindAnyObjectByType<Spawner>();
+
+
         EventManager.GetInstance().MovingPlatformEditModeEnter += SwitchTurn;
         EventManager.GetInstance().MovingPlatformEditModeExit += SwitchTurn;
     }
+
 
     private void Update()
     {
@@ -65,7 +86,6 @@ public class PlatformVisualizer : MonoBehaviour
         if(Input.GetMouseButtonDown(0))
         {
             SpawnObject();
-            EventManager.GetInstance().OnMovingPlatformEditModeEnter();
         }
     }
 }

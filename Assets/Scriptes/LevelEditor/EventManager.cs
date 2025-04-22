@@ -16,17 +16,24 @@ public class EventManager
         return _instance;
     }
 
-    public delegate void PlatformEditModeEnter();
-    public event PlatformEditModeEnter MovingPlatformEditModeEnter;
-    public event PlatformEditModeEnter MovingPlatformEditModeExit;
 
-    public void OnMovingPlatformEditModeEnter()
+    public delegate void PlatformEditModeEnter(MovingPlatformScript platform);
+    public delegate void PlatformEditModeExit(MovingPlatformScript platform);
+    
+
+    public event PlatformEditModeEnter MovingPlatformEditModeEnter;
+    public event PlatformEditModeExit MovingPlatformEditModeExit;
+
+
+    public void OnMovingPlatformEditModeEnter(MovingPlatformScript platform)
     {
-        MovingPlatformEditModeEnter.Invoke();
+        MovingPlatformEditModeEnter.Invoke(platform);
     }
-    public void OnMovingPlatformEditModeExit()
+
+
+    public void OnMovingPlatformEditModeExit(MovingPlatformScript platform)
     {
-        MovingPlatformEditModeExit.Invoke();
+        MovingPlatformEditModeExit.Invoke(platform);
     }
 
 }
