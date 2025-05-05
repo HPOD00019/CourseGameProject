@@ -6,24 +6,39 @@ using UnityEngine;
 public class RotationPlatformScript : MonoBehaviour
 {
     private bool _makingRound;
-    public float rotationSpeed = 60f; 
-    public float rotationAngle = 360f; 
 
+    public float rotationSpeed = 300f; 
+    public float rotationAngle = 360f;
+    private Coroutine _roundCoroutine;
+
+    private bool _rotated;
+    private Vector3 _rotationVector = Vector3.right;
+
+    private Quaternion quart;
     private void Start()
     {
-       
+        _rotationVector = Vector3.right;
+        quart = transform.localRotation;
+
+        RotationPlatformScript[] platforms = FindObjectsOfType<RotationPlatformScript>();
+        foreach (var plat in platforms)
+        {
+            plat.SwitchTurn();
+        }
+        EventManager.GetInstance().OnEditRotationPlatform(this);
     }
+
+
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (!_makingRound)
         {
-            if(!_makingRound)
-            {
-                StartCoroutine(MakeRound());
-                _makingRound = true;
-            }
+            _makingRound = true;
+            _roundCoroutine = StartCoroutine(MakeRound());
         }
     }
+
+
     private IEnumerator MakeRound()
     {
         float totalRotation = 0f;
@@ -36,12 +51,50 @@ public class RotationPlatformScript : MonoBehaviour
                 rotationThisFrame = rotationAngle - totalRotation;
             }
 
-            transform.Rotate(Vector3.right, rotationThisFrame); 
+            transform.Rotate(_rotationVector, rotationThisFrame); 
             totalRotation += rotationThisFrame; 
 
             yield return null; 
         }
+
+        yield return new WaitForSeconds(2f);
         _makingRound = false;
+
         yield break;
+    }
+
+
+    public void SwitchTurn()
+    {
+        if (_roundCoroutine != null) StopCoroutine(_roundCoroutine);
+        _makingRound = false;
+        transform.rotation = quart;
+    }
+
+
+    public void Rotate()
+    {
+        RotationPlatformScript[] platforms = FindObjectsOfType<RotationPlatformScript>();
+        
+        foreach (var plat in platforms)
+        {
+            plat.SwitchTurn();
+        }
+
+        if (_rotated)
+        {
+            transform.Rotate(0f, 90f, 0f);
+            _rotationVector = Vector3.back;
+            quart = transform.localRotation;
+        }
+        else
+        {
+            _rotationVector = Vector3.forward;
+            transform.Rotate(0f, -90f, 0f);
+            quart = transform.localRotation;
+        }
+
+        _makingRound = false;
+        _rotated = !_rotated;
     }
 }

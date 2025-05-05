@@ -12,5 +12,5 @@ public class Spawner : MonoBehaviour
         GameObject newObj = Instantiate(ObjectToSpawn);
         newObj.transform.position = (Vector3)location;
 
-    }    
+    }
 }

@@ -6,33 +6,39 @@ using LevelEditor.MovingPlatformRoute;
 
 public class PlatformVisualizer : MonoBehaviour
 {
-    public GameObject ObjectToTrack;
+    
     public Spawner ObjectSpawner;
     public GameObject Plane;
 
+
+    public GameObject ObjectToTrack;
 
     public Vector3? GetMouseWorldPosition()
     {
         Vector3? ans = null;
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit[] objects = Physics.RaycastAll(ray);
-        foreach (RaycastHit obj in objects)
+
+        foreach (var obj in objects)
         {
             if(obj.collider.gameObject == Plane)
             {
                 ans = new Vector3(
-                    (float)Math.Round(obj.point.x), 
-                    (float)Math.Round(obj.point.y), 
-                    (float)Math.Round(obj.point.z)
+                    (float)Math.Round(objects[0].point.x), 
+                    (float)Math.Round(objects[0].point.y), 
+                    (float)Math.Round(objects[0].point.z)
                     );
             }
         }
+
+
         return ans;
     }
 
 
     public void SpawnObject()
     {
+        if (ObjectToTrack == null) return;
         Vector3? location = GetMouseWorldPosition();
 
 
@@ -46,12 +52,26 @@ public class PlatformVisualizer : MonoBehaviour
 
     public void DragObj()
     {
+        if (ObjectToTrack == null) return;
         Vector3? location = GetMouseWorldPosition();
-        if (location!=null) ObjectToTrack.transform.position = (Vector3)location;
+
+        if (location!=null)
+        {
+            ObjectToTrack.SetActive(true);
+            ObjectToTrack.transform.position = (Vector3)location;
+        }  
+
     }
 
 
-    public void SwitchTurn(MovingPlatformScript s)
+    public void SetNewObjectToTrack(GameObject obj)
+    {
+        Destroy(ObjectToTrack);
+        ObjectToTrack = Instantiate(obj);
+    }
+
+
+    public void SwitchTurn()
     {
         enabled = !enabled;
 
@@ -73,10 +93,7 @@ public class PlatformVisualizer : MonoBehaviour
     private void Start()
     {
         ObjectSpawner = FindAnyObjectByType<Spawner>();
-
-
-        EventManager.GetInstance().MovingPlatformEditModeEnter += SwitchTurn;
-        EventManager.GetInstance().MovingPlatformEditModeExit += SwitchTurn;
+        EventManager.GetInstance().SpawnPlatformAlowed += SwitchTurn;
     }
 
 

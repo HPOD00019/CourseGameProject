@@ -18,10 +18,16 @@ namespace LevelEditor.MovingPlatformRoute
 
         public void Awake()
         {
-            lineRenderer = gameObject.AddComponent<LineRenderer>();
+            
         }
         public void DrawRoute()
         {
+            lineRenderer = gameObject.GetComponent<LineRenderer>();
+
+            if (lineRenderer == null)
+            {
+                lineRenderer = gameObject.AddComponent<LineRenderer>();
+            }
 
             lineRenderer.positionCount = Route.Count;
             lineRenderer.widthMultiplier = width;

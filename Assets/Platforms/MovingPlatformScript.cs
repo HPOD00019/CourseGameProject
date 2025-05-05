@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Diagnostics.CodeAnalysis;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using JetBrains.Annotations;
 using LevelEditor.MovingPlatformRoute;
 using Unity.VisualScripting;
@@ -18,6 +19,7 @@ public class MovingPlatformScript : MonoBehaviour
     private List<Vector3> _actualRoute;
 
 
+    private RouteVisualizer _visualizer;
     public float MoveSpeed;
 
 
@@ -29,7 +31,7 @@ public class MovingPlatformScript : MonoBehaviour
 
         PlatformRoute = new ObservableCollection<Vector3>();
         PlatformRoute.CollectionChanged += CircleRoute;
-
+        PlatformRoute.CollectionChanged += ShowRouteIsValid;
 
         _actualRoute = new List<Vector3>();
 
@@ -46,8 +48,10 @@ public class MovingPlatformScript : MonoBehaviour
         _states.Add(typeof(DefaultState), defaultState);
         _state = defaultState;
 
+        _visualizer = gameObject.AddComponent<RouteVisualizer>();
 
-        EventManager.GetInstance().OnMovingPlatformEditModeEnter(this);
+        EventManager.GetInstance().focusedObject = gameObject;
+        EventManager.GetInstance().OnMovingPlatformEditModeEnter();
     }
 
     public void Update()
@@ -58,14 +62,12 @@ public class MovingPlatformScript : MonoBehaviour
 
     public void DrawRoute()
     {
-        var n = gameObject.AddComponent<RouteVisualizer>();
-        n.Route = new List<Vector3>(PlatformRoute);
-        
-        n.DrawRoute();
+        _visualizer.Route = new List<Vector3>(PlatformRoute);
+        _visualizer.DrawRoute();
     }
 
 
-    public void SwitchTurn(MovingPlatformScript platform)
+    public void SwitchTurn()
     {
         enabled = !enabled;
 
@@ -73,12 +75,6 @@ public class MovingPlatformScript : MonoBehaviour
         {
             DrawRoute();
         }
-        else
-        {
-            Destroy(gameObject.GetComponent<RouteVisualizer>());
-            Destroy(gameObject.GetComponent<LineRenderer>());
-        }
-
         foreach(var state in _states.Keys)
         {
             if(state != _state.GetType())
@@ -91,14 +87,49 @@ public class MovingPlatformScript : MonoBehaviour
 
     public void MakeAStep(int steps = 1)
     {
-        while (steps > 0)
+        if (steps > 0)
         {
-            _state.MoveToTheNextPoint();
-            steps--;
+            while (steps > 0)
+            {
+                _state.MoveToTheNextPoint();
+                steps--;
+            }
+        }
+        else
+        {
+            while (steps < 0)
+            {
+                _state.MoveToTheNextPoint();
+                steps++;
+            }
         }
     }
 
+    public int GetCurrentLocation()
+    {
+        return _state.GetCurrentLocation();
+    }
 
+
+    public List<Vector3> GetNextLocations(int count = 1)
+    {
+        return _state.GetNextLocations(count);
+    }
+
+
+    private void ShowRouteIsValid(object sender, EventArgs e)
+    {
+        if (Validator.IsRouteValid(this))
+        {
+            _visualizer.LineBeginColor = Color.green;
+            _visualizer.LineEndColor = Color.green;
+        }
+        else
+        {
+            _visualizer.LineBeginColor = Color.red;
+            _visualizer.LineEndColor = Color.red;
+        }
+    }
     private void CircleRoute(object sender, EventArgs e)
     {
         List<Vector3> ans = new List<Vector3>(PlatformRoute);
