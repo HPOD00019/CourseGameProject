@@ -3,64 +3,128 @@
   "WorkspaceRootPath": "D:\\Unity\\Projects\\CourseProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\CourseProject\\assets\\scriptes\\leveleditor\\platformvisualizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|solutionrelative:assets\\scriptes\\leveleditor\\platformvisualizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\CourseProject\\assets\\scriptes\\leveleditor\\movingplatformeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|solutionrelative:assets\\scriptes\\leveleditor\\movingplatformeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\CourseProject\\assets\\platforms\\movingplatformscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|solutionrelative:assets\\platforms\\movingplatformscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\CourseProject\\assets\\scriptes\\inputmanagereditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|solutionrelative:assets\\scriptes\\inputmanagereditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|d:\\unity\\projects\\courseproject\\assets\\scriptes\\leveleditor\\save\\saver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|solutionrelative:assets\\scriptes\\leveleditor\\save\\saver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\CourseProject\\assets\\scriptes\\leveleditor\\onspawnplatform\\spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|solutionrelative:assets\\scriptes\\leveleditor\\onspawnplatform\\spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\CourseProject\\assets\\scriptes\\leveleditor\\eventmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|solutionrelative:assets\\scriptes\\leveleditor\\eventmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\CourseProject\\assets\\scriptes\\leveleditor\\platformvisualizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|solutionrelative:assets\\scriptes\\leveleditor\\platformvisualizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|d:\\unity\\projects\\courseproject\\assets\\scriptes\\leveleditor\\cameraflyscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|solutionrelative:assets\\scriptes\\leveleditor\\cameraflyscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\CourseProject\\assets\\resources\\platforms\\spawnplatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|solutionrelative:assets\\resources\\platforms\\spawnplatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|d:\\unity\\projects\\courseproject\\assets\\platforms\\rotationplatformscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|solutionrelative:assets\\platforms\\rotationplatformscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\CourseProject\\assets\\scriptes\\inputmanagereditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|solutionrelative:assets\\scriptes\\inputmanagereditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\CourseProject\\assets\\scriptes\\leveleditor\\rotationplatformseditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|solutionrelative:assets\\scriptes\\leveleditor\\rotationplatformseditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\CourseProject\\assets\\scriptes\\ballcontrollscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|solutionrelative:assets\\scriptes\\ballcontrollscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\CourseProject\\assets\\scriptes\\leveleditor\\planehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|solutionrelative:assets\\scriptes\\leveleditor\\planehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\CourseProject\\assets\\scriptes\\initialize\\initializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|solutionrelative:assets\\scriptes\\initialize\\initializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity\\Projects\\CourseProject\\Assets\\StreamingAssets\\Levels\\finishTestLevel.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\StreamingAssets\\Levels\\finishTestLevel.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\CourseProject\\assets\\scriptes\\ballcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|solutionrelative:assets\\scriptes\\ballcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\CourseProject\\assets\\scriptes\\leveleditor\\movingplatformeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|solutionrelative:assets\\scriptes\\leveleditor\\movingplatformeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\CourseProject\\assets\\resources\\platforms\\gamemovingplatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|solutionrelative:assets\\resources\\platforms\\gamemovingplatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\CourseProject\\assets\\scriptes\\menu\\levelbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|solutionrelative:assets\\scriptes\\menu\\levelbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity\\Projects\\CourseProject\\Assets\\Platforms\\MovingPlatformScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Platforms\\MovingPlatformScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\CourseProject\\assets\\scriptes\\camerafollowscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|solutionrelative:assets\\scriptes\\camerafollowscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\CourseProject\\assets\\scriptes\\menu\\sceneloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|solutionrelative:assets\\scriptes\\menu\\sceneloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\CourseProject\\assets\\scriptes\\menu\\buttonanimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|solutionrelative:assets\\scriptes\\menu\\buttonanimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\CourseProject\\assets\\scriptes\\leveleditor\\validator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|solutionrelative:assets\\scriptes\\leveleditor\\validator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\CourseProject\\assets\\platforms\\movingplatformstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|solutionrelative:assets\\platforms\\movingplatformstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\CourseProject\\assets\\scriptes\\mousepointscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|solutionrelative:assets\\scriptes\\mousepointscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\CourseProject\\assets\\scriptes\\menu\\pausemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|solutionrelative:assets\\scriptes\\menu\\pausemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\CourseProject\\assets\\scriptes\\leveleditor\\routevisualizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|solutionrelative:assets\\scriptes\\leveleditor\\routevisualizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\CourseProject\\assets\\scriptes\\leveleditor\\save\\savepanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|solutionrelative:assets\\scriptes\\leveleditor\\save\\savepanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\CourseProject\\assets\\scriptes\\menu\\scrollviewlevelgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|solutionrelative:assets\\scriptes\\menu\\scrollviewlevelgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\CourseProject\\assets\\scriptes\\initialize\\informationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|solutionrelative:assets\\scriptes\\initialize\\informationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\CourseProject\\assets\\scriptes\\leveleditor\\eventmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|solutionrelative:assets\\scriptes\\leveleditor\\eventmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\CourseProject\\assets\\scriptes\\leveleditor\\save\\level.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|solutionrelative:assets\\scriptes\\leveleditor\\save\\level.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\CourseProject\\assets\\scriptes\\leveleditor\\save\\savebutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|solutionrelative:assets\\scriptes\\leveleditor\\save\\savebutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\CourseProject\\assets\\scriptes\\leveleditor\\save\\listhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|solutionrelative:assets\\scriptes\\leveleditor\\save\\listhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\CourseProject\\assets\\scriptes\\scenemanagerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|solutionrelative:assets\\scriptes\\scenemanagerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\CourseProject\\assets\\scriptes\\leveleditor\\rotationplatformseditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|solutionrelative:assets\\scriptes\\leveleditor\\rotationplatformseditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\CourseProject\\assets\\scriptes\\leveleditor\\cameraflyscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|solutionrelative:assets\\scriptes\\leveleditor\\cameraflyscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\CourseProject\\assets\\scriptes\\leveleditor\\planehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|solutionrelative:assets\\scriptes\\leveleditor\\planehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\CourseProject\\assets\\scriptes\\leveleditor\\validator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|solutionrelative:assets\\scriptes\\leveleditor\\validator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\CourseProject\\assets\\scriptes\\mousepointscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|solutionrelative:assets\\scriptes\\mousepointscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\CourseProject\\assets\\scriptes\\platformgridhandlerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -69,6 +133,22 @@
     {
       "AbsoluteMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\CourseProject\\assets\\scriptes\\leveleditor\\igoonturn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{89B00F0F-B22A-248E-BFA3-625E2E63128E}|Assembly-CSharp.csproj|solutionrelative:assets\\scriptes\\leveleditor\\igoonturn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity\\Projects\\CourseProject\\Assets\\Platforms\\MovingPlatformState.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Platforms\\MovingPlatformState.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity\\Projects\\CourseProject\\Assets\\Platforms\\GameRotationPlatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Platforms\\GameRotationPlatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity\\Projects\\CourseProject\\Assets\\Platforms\\TrapPlatformScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Platforms\\TrapPlatformScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity\\Projects\\CourseProject\\Assets\\Platforms\\RotationPlatformScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Platforms\\RotationPlatformScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -78,25 +158,336 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "PlatformVisualizer.cs",
               "DocumentMoniker": "D:\\Unity\\Projects\\CourseProject\\Assets\\Scriptes\\LevelEditor\\PlatformVisualizer.cs",
               "RelativeDocumentMoniker": "Assets\\Scriptes\\LevelEditor\\PlatformVisualizer.cs",
               "ToolTip": "D:\\Unity\\Projects\\CourseProject\\Assets\\Scriptes\\LevelEditor\\PlatformVisualizer.cs",
               "RelativeToolTip": "Assets\\Scriptes\\LevelEditor\\PlatformVisualizer.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAAACgAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAgwC4AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-24T09:07:44.638Z",
-              "IsPinned": true,
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "finishTestLevel.json",
+              "DocumentMoniker": "D:\\Unity\\Projects\\CourseProject\\Assets\\StreamingAssets\\Levels\\finishTestLevel.json",
+              "RelativeDocumentMoniker": "Assets\\StreamingAssets\\Levels\\finishTestLevel.json",
+              "ToolTip": "D:\\Unity\\Projects\\CourseProject\\Assets\\StreamingAssets\\Levels\\finishTestLevel.json",
+              "RelativeToolTip": "Assets\\StreamingAssets\\Levels\\finishTestLevel.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-15T07:37:26.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GameMovingPlatform.cs",
+              "DocumentMoniker": "D:\\Unity\\Projects\\CourseProject\\Assets\\Resources\\Platforms\\GameMovingPlatform.cs",
+              "RelativeDocumentMoniker": "Assets\\Resources\\Platforms\\GameMovingPlatform.cs",
+              "ToolTip": "D:\\Unity\\Projects\\CourseProject\\Assets\\Resources\\Platforms\\GameMovingPlatform.cs",
+              "RelativeToolTip": "Assets\\Resources\\Platforms\\GameMovingPlatform.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAASwHkAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T06:34:51.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SpawnPlatform.cs",
+              "DocumentMoniker": "D:\\Unity\\Projects\\CourseProject\\Assets\\Resources\\Platforms\\SpawnPlatform.cs",
+              "RelativeDocumentMoniker": "Assets\\Resources\\Platforms\\SpawnPlatform.cs",
+              "ToolTip": "D:\\Unity\\Projects\\CourseProject\\Assets\\Resources\\Platforms\\SpawnPlatform.cs",
+              "RelativeToolTip": "Assets\\Resources\\Platforms\\SpawnPlatform.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAASwBQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T06:28:41.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SceneLoader.cs",
+              "DocumentMoniker": "D:\\Unity\\Projects\\CourseProject\\Assets\\Scriptes\\Menu\\SceneLoader.cs",
+              "RelativeDocumentMoniker": "Assets\\Scriptes\\Menu\\SceneLoader.cs",
+              "ToolTip": "D:\\Unity\\Projects\\CourseProject\\Assets\\Scriptes\\Menu\\SceneLoader.cs",
+              "RelativeToolTip": "Assets\\Scriptes\\Menu\\SceneLoader.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T08:02:41.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "InformationManager.cs",
+              "DocumentMoniker": "D:\\Unity\\Projects\\CourseProject\\Assets\\Scriptes\\Initialize\\InformationManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scriptes\\Initialize\\InformationManager.cs",
+              "ToolTip": "D:\\Unity\\Projects\\CourseProject\\Assets\\Scriptes\\Initialize\\InformationManager.cs",
+              "RelativeToolTip": "Assets\\Scriptes\\Initialize\\InformationManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T07:18:33.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ScrollViewLevelGenerator.cs",
+              "DocumentMoniker": "D:\\Unity\\Projects\\CourseProject\\Assets\\Scriptes\\Menu\\ScrollViewLevelGenerator.cs",
+              "RelativeDocumentMoniker": "Assets\\Scriptes\\Menu\\ScrollViewLevelGenerator.cs",
+              "ToolTip": "D:\\Unity\\Projects\\CourseProject\\Assets\\Scriptes\\Menu\\ScrollViewLevelGenerator.cs",
+              "RelativeToolTip": "Assets\\Scriptes\\Menu\\ScrollViewLevelGenerator.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAgwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T13:23:35.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SavePanel.cs",
+              "DocumentMoniker": "D:\\Unity\\Projects\\CourseProject\\Assets\\Scriptes\\LevelEditor\\Save\\SavePanel.cs",
+              "RelativeDocumentMoniker": "Assets\\Scriptes\\LevelEditor\\Save\\SavePanel.cs",
+              "ToolTip": "D:\\Unity\\Projects\\CourseProject\\Assets\\Scriptes\\LevelEditor\\Save\\SavePanel.cs",
+              "RelativeToolTip": "Assets\\Scriptes\\LevelEditor\\Save\\SavePanel.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAiwAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T15:23:20.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "RouteVisualizer.cs",
+              "DocumentMoniker": "D:\\Unity\\Projects\\CourseProject\\Assets\\Scriptes\\LevelEditor\\RouteVisualizer.cs",
+              "RelativeDocumentMoniker": "Assets\\Scriptes\\LevelEditor\\RouteVisualizer.cs",
+              "ToolTip": "D:\\Unity\\Projects\\CourseProject\\Assets\\Scriptes\\LevelEditor\\RouteVisualizer.cs",
+              "RelativeToolTip": "Assets\\Scriptes\\LevelEditor\\RouteVisualizer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAwwCgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T07:38:37.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Saver.cs",
+              "DocumentMoniker": "D:\\Unity\\Projects\\CourseProject\\Assets\\Scriptes\\LevelEditor\\Save\\Saver.cs",
+              "RelativeDocumentMoniker": "Assets\\Scriptes\\LevelEditor\\Save\\Saver.cs",
+              "ToolTip": "D:\\Unity\\Projects\\CourseProject\\Assets\\Scriptes\\LevelEditor\\Save\\Saver.cs",
+              "RelativeToolTip": "Assets\\Scriptes\\LevelEditor\\Save\\Saver.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAASwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T14:18:00.032Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "SaveButton.cs",
+              "DocumentMoniker": "D:\\Unity\\Projects\\CourseProject\\Assets\\Scriptes\\LevelEditor\\Save\\SaveButton.cs",
+              "RelativeDocumentMoniker": "Assets\\Scriptes\\LevelEditor\\Save\\SaveButton.cs",
+              "ToolTip": "D:\\Unity\\Projects\\CourseProject\\Assets\\Scriptes\\LevelEditor\\Save\\SaveButton.cs",
+              "RelativeToolTip": "Assets\\Scriptes\\LevelEditor\\Save\\SaveButton.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T14:23:30.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MovingPlatformScript.cs",
+              "DocumentMoniker": "D:\\Unity\\Projects\\CourseProject\\Assets\\Platforms\\MovingPlatformScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Platforms\\MovingPlatformScript.cs",
+              "ToolTip": "D:\\Unity\\Projects\\CourseProject\\Assets\\Platforms\\MovingPlatformScript.cs",
+              "RelativeToolTip": "Assets\\Platforms\\MovingPlatformScript.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T05:23:29.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LevelButton.cs",
+              "DocumentMoniker": "D:\\Unity\\Projects\\CourseProject\\Assets\\Scriptes\\Menu\\LevelButton.cs",
+              "RelativeDocumentMoniker": "Assets\\Scriptes\\Menu\\LevelButton.cs",
+              "ToolTip": "D:\\Unity\\Projects\\CourseProject\\Assets\\Scriptes\\Menu\\LevelButton.cs",
+              "RelativeToolTip": "Assets\\Scriptes\\Menu\\LevelButton.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T13:28:11.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MovingPlatformEditor.cs",
+              "DocumentMoniker": "D:\\Unity\\Projects\\CourseProject\\Assets\\Scriptes\\LevelEditor\\MovingPlatformEditor.cs",
+              "RelativeDocumentMoniker": "Assets\\Scriptes\\LevelEditor\\MovingPlatformEditor.cs",
+              "ToolTip": "D:\\Unity\\Projects\\CourseProject\\Assets\\Scriptes\\LevelEditor\\MovingPlatformEditor.cs",
+              "RelativeToolTip": "Assets\\Scriptes\\LevelEditor\\MovingPlatformEditor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T15:37:01.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BallControllScript.cs",
+              "DocumentMoniker": "D:\\Unity\\Projects\\CourseProject\\Assets\\Scriptes\\BallControllScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scriptes\\BallControllScript.cs",
+              "ToolTip": "D:\\Unity\\Projects\\CourseProject\\Assets\\Scriptes\\BallControllScript.cs",
+              "RelativeToolTip": "Assets\\Scriptes\\BallControllScript.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T09:24:14.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "EventManager.cs",
+              "DocumentMoniker": "D:\\Unity\\Projects\\CourseProject\\Assets\\Scriptes\\LevelEditor\\EventManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scriptes\\LevelEditor\\EventManager.cs",
+              "ToolTip": "D:\\Unity\\Projects\\CourseProject\\Assets\\Scriptes\\LevelEditor\\EventManager.cs",
+              "RelativeToolTip": "Assets\\Scriptes\\LevelEditor\\EventManager.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T08:17:04.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "MovingPlatformState.cs",
+              "DocumentMoniker": "D:\\Unity\\Projects\\CourseProject\\Assets\\Platforms\\MovingPlatformState.cs",
+              "RelativeDocumentMoniker": "Assets\\Platforms\\MovingPlatformState.cs",
+              "ToolTip": "D:\\Unity\\Projects\\CourseProject\\Assets\\Platforms\\MovingPlatformState.cs",
+              "RelativeToolTip": "Assets\\Platforms\\MovingPlatformState.cs",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAcwIgAAABlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T11:13:29.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ButtonAnimation.cs",
+              "DocumentMoniker": "D:\\Unity\\Projects\\CourseProject\\Assets\\Scriptes\\Menu\\ButtonAnimation.cs",
+              "RelativeDocumentMoniker": "Assets\\Scriptes\\Menu\\ButtonAnimation.cs",
+              "ToolTip": "D:\\Unity\\Projects\\CourseProject\\Assets\\Scriptes\\Menu\\ButtonAnimation.cs",
+              "RelativeToolTip": "Assets\\Scriptes\\Menu\\ButtonAnimation.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAIAywDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T14:43:56.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PauseManager.cs",
+              "DocumentMoniker": "D:\\Unity\\Projects\\CourseProject\\Assets\\Scriptes\\Menu\\PauseManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scriptes\\Menu\\PauseManager.cs",
+              "ToolTip": "D:\\Unity\\Projects\\CourseProject\\Assets\\Scriptes\\Menu\\PauseManager.cs",
+              "RelativeToolTip": "Assets\\Scriptes\\Menu\\PauseManager.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCIAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T12:26:37.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BallController.cs",
+              "DocumentMoniker": "D:\\Unity\\Projects\\CourseProject\\Assets\\Scriptes\\BallController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scriptes\\BallController.cs",
+              "ToolTip": "D:\\Unity\\Projects\\CourseProject\\Assets\\Scriptes\\BallController.cs",
+              "RelativeToolTip": "Assets\\Scriptes\\BallController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowCYAAABwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T04:53:59.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ListHandler.cs",
+              "DocumentMoniker": "D:\\Unity\\Projects\\CourseProject\\Assets\\Scriptes\\LevelEditor\\Save\\ListHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\Scriptes\\LevelEditor\\Save\\ListHandler.cs",
+              "ToolTip": "D:\\Unity\\Projects\\CourseProject\\Assets\\Scriptes\\LevelEditor\\Save\\ListHandler.cs",
+              "RelativeToolTip": "Assets\\Scriptes\\LevelEditor\\Save\\ListHandler.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T14:18:07.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Level.cs",
+              "DocumentMoniker": "D:\\Unity\\Projects\\CourseProject\\Assets\\Scriptes\\LevelEditor\\Save\\Level.cs",
+              "RelativeDocumentMoniker": "Assets\\Scriptes\\LevelEditor\\Save\\Level.cs",
+              "ToolTip": "D:\\Unity\\Projects\\CourseProject\\Assets\\Scriptes\\LevelEditor\\Save\\Level.cs",
+              "RelativeToolTip": "Assets\\Scriptes\\LevelEditor\\Save\\Level.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T14:18:05.38Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "Initializer.cs",
+              "DocumentMoniker": "D:\\Unity\\Projects\\CourseProject\\Assets\\Scriptes\\Initialize\\Initializer.cs",
+              "RelativeDocumentMoniker": "Assets\\Scriptes\\Initialize\\Initializer.cs",
+              "ToolTip": "D:\\Unity\\Projects\\CourseProject\\Assets\\Scriptes\\Initialize\\Initializer.cs",
+              "RelativeToolTip": "Assets\\Scriptes\\Initialize\\Initializer.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAowFsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T15:19:42.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "GameRotationPlatform.cs",
+              "DocumentMoniker": "D:\\Unity\\Projects\\CourseProject\\Assets\\Platforms\\GameRotationPlatform.cs",
+              "RelativeDocumentMoniker": "Assets\\Platforms\\GameRotationPlatform.cs",
+              "ToolTip": "D:\\Unity\\Projects\\CourseProject\\Assets\\Platforms\\GameRotationPlatform.cs",
+              "RelativeToolTip": "Assets\\Platforms\\GameRotationPlatform.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwBoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T08:33:31.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "TrapPlatformScript.cs",
+              "DocumentMoniker": "D:\\Unity\\Projects\\CourseProject\\Assets\\Platforms\\TrapPlatformScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Platforms\\TrapPlatformScript.cs",
+              "ToolTip": "D:\\Unity\\Projects\\CourseProject\\Assets\\Platforms\\TrapPlatformScript.cs",
+              "RelativeToolTip": "Assets\\Platforms\\TrapPlatformScript.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T08:38:21.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CameraFollowScript.cs",
+              "DocumentMoniker": "D:\\Unity\\Projects\\CourseProject\\Assets\\Scriptes\\CameraFollowScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scriptes\\CameraFollowScript.cs",
+              "ToolTip": "D:\\Unity\\Projects\\CourseProject\\Assets\\Scriptes\\CameraFollowScript.cs",
+              "RelativeToolTip": "Assets\\Scriptes\\CameraFollowScript.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T09:35:59.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "SceneManagerScript.cs",
+              "DocumentMoniker": "D:\\Unity\\Projects\\CourseProject\\Assets\\Scriptes\\SceneManagerScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scriptes\\SceneManagerScript.cs",
+              "ToolTip": "D:\\Unity\\Projects\\CourseProject\\Assets\\Scriptes\\SceneManagerScript.cs",
+              "RelativeToolTip": "Assets\\Scriptes\\SceneManagerScript.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T13:17:04.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
               "Title": "CameraFlyScript.cs",
               "DocumentMoniker": "D:\\Unity\\Projects\\CourseProject\\Assets\\Scriptes\\LevelEditor\\CameraFlyScript.cs",
               "RelativeDocumentMoniker": "Assets\\Scriptes\\LevelEditor\\CameraFlyScript.cs",
@@ -104,12 +495,11 @@
               "RelativeToolTip": "Assets\\Scriptes\\LevelEditor\\CameraFlyScript.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T11:12:51.14Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-05T11:12:51.14Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 26,
               "Title": "RotationPlatformsEditor.cs",
               "DocumentMoniker": "D:\\Unity\\Projects\\CourseProject\\Assets\\Scriptes\\LevelEditor\\RotationPlatformsEditor.cs",
               "RelativeDocumentMoniker": "Assets\\Scriptes\\LevelEditor\\RotationPlatformsEditor.cs",
@@ -121,32 +511,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 36,
               "Title": "RotationPlatformScript.cs",
               "DocumentMoniker": "D:\\Unity\\Projects\\CourseProject\\Assets\\Platforms\\RotationPlatformScript.cs",
               "RelativeDocumentMoniker": "Assets\\Platforms\\RotationPlatformScript.cs",
               "ToolTip": "D:\\Unity\\Projects\\CourseProject\\Assets\\Platforms\\RotationPlatformScript.cs",
               "RelativeToolTip": "Assets\\Platforms\\RotationPlatformScript.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAgwBsAAABAAAAAAAAAAA==",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAwwEkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T06:47:24.983Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-04T06:47:24.983Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ButtonAnimation.cs",
-              "DocumentMoniker": "D:\\Unity\\Projects\\CourseProject\\Assets\\Scriptes\\Menu\\ButtonAnimation.cs",
-              "RelativeDocumentMoniker": "Assets\\Scriptes\\Menu\\ButtonAnimation.cs",
-              "ToolTip": "D:\\Unity\\Projects\\CourseProject\\Assets\\Scriptes\\Menu\\ButtonAnimation.cs",
-              "RelativeToolTip": "Assets\\Scriptes\\Menu\\ButtonAnimation.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAowCcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T14:43:56.686Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 29,
               "Title": "Validator.cs",
               "DocumentMoniker": "D:\\Unity\\Projects\\CourseProject\\Assets\\Scriptes\\LevelEditor\\Validator.cs",
               "RelativeDocumentMoniker": "Assets\\Scriptes\\LevelEditor\\Validator.cs",
@@ -158,96 +535,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MovingPlatformScript.cs",
-              "DocumentMoniker": "D:\\Unity\\Projects\\CourseProject\\Assets\\Platforms\\MovingPlatformScript.cs",
-              "RelativeDocumentMoniker": "Assets\\Platforms\\MovingPlatformScript.cs",
-              "ToolTip": "D:\\Unity\\Projects\\CourseProject\\Assets\\Platforms\\MovingPlatformScript.cs",
-              "RelativeToolTip": "Assets\\Platforms\\MovingPlatformScript.cs",
-              "ViewState": "AgIAAG8AAAAAAAAAAAAmwIsAAABOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T05:23:29.364Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MovingPlatformEditor.cs",
-              "DocumentMoniker": "D:\\Unity\\Projects\\CourseProject\\Assets\\Scriptes\\LevelEditor\\MovingPlatformEditor.cs",
-              "RelativeDocumentMoniker": "Assets\\Scriptes\\LevelEditor\\MovingPlatformEditor.cs",
-              "ToolTip": "D:\\Unity\\Projects\\CourseProject\\Assets\\Scriptes\\LevelEditor\\MovingPlatformEditor.cs",
-              "RelativeToolTip": "Assets\\Scriptes\\LevelEditor\\MovingPlatformEditor.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwAwAAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T15:37:01.422Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EventManager.cs",
-              "DocumentMoniker": "D:\\Unity\\Projects\\CourseProject\\Assets\\Scriptes\\LevelEditor\\EventManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scriptes\\LevelEditor\\EventManager.cs",
-              "ToolTip": "D:\\Unity\\Projects\\CourseProject\\Assets\\Scriptes\\LevelEditor\\EventManager.cs",
-              "RelativeToolTip": "Assets\\Scriptes\\LevelEditor\\EventManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T08:17:04.194Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "Spawner.cs",
               "DocumentMoniker": "D:\\Unity\\Projects\\CourseProject\\Assets\\Scriptes\\LevelEditor\\OnSpawnPlatform\\Spawner.cs",
               "RelativeDocumentMoniker": "Assets\\Scriptes\\LevelEditor\\OnSpawnPlatform\\Spawner.cs",
               "ToolTip": "D:\\Unity\\Projects\\CourseProject\\Assets\\Scriptes\\LevelEditor\\OnSpawnPlatform\\Spawner.cs",
               "RelativeToolTip": "Assets\\Scriptes\\LevelEditor\\OnSpawnPlatform\\Spawner.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCMAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T12:58:56.037Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-18T12:58:56.037Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "InputManagerEditor.cs",
               "DocumentMoniker": "D:\\Unity\\Projects\\CourseProject\\Assets\\Scriptes\\InputManagerEditor.cs",
               "RelativeDocumentMoniker": "Assets\\Scriptes\\InputManagerEditor.cs",
               "ToolTip": "D:\\Unity\\Projects\\CourseProject\\Assets\\Scriptes\\InputManagerEditor.cs",
               "RelativeToolTip": "Assets\\Scriptes\\InputManagerEditor.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAqwDMAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAABVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T14:02:58.248Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-24T14:02:58.248Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "MovingPlatformState.cs",
-              "DocumentMoniker": "D:\\Unity\\Projects\\CourseProject\\Assets\\Platforms\\MovingPlatformState.cs",
-              "RelativeDocumentMoniker": "Assets\\Platforms\\MovingPlatformState.cs",
-              "ToolTip": "D:\\Unity\\Projects\\CourseProject\\Assets\\Platforms\\MovingPlatformState.cs",
-              "RelativeToolTip": "Assets\\Platforms\\MovingPlatformState.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAYwAQAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T11:13:29.895Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "RouteVisualizer.cs",
-              "DocumentMoniker": "D:\\Unity\\Projects\\CourseProject\\Assets\\Scriptes\\LevelEditor\\RouteVisualizer.cs",
-              "RelativeDocumentMoniker": "Assets\\Scriptes\\LevelEditor\\RouteVisualizer.cs",
-              "ToolTip": "D:\\Unity\\Projects\\CourseProject\\Assets\\Scriptes\\LevelEditor\\RouteVisualizer.cs",
-              "RelativeToolTip": "Assets\\Scriptes\\LevelEditor\\RouteVisualizer.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAA0wCgAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T07:38:37.885Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 28,
               "Title": "PlaneHandler.cs",
               "DocumentMoniker": "D:\\Unity\\Projects\\CourseProject\\Assets\\Scriptes\\LevelEditor\\PlaneHandler.cs",
               "RelativeDocumentMoniker": "Assets\\Scriptes\\LevelEditor\\PlaneHandler.cs",
@@ -259,7 +571,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 32,
               "Title": "IGoOnTurn.cs",
               "DocumentMoniker": "D:\\Unity\\Projects\\CourseProject\\Assets\\Scriptes\\LevelEditor\\IGoOnTurn.cs",
               "RelativeDocumentMoniker": "Assets\\Scriptes\\LevelEditor\\IGoOnTurn.cs",
@@ -271,7 +583,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 31,
               "Title": "PlatformGridHandlerScript.cs",
               "DocumentMoniker": "D:\\Unity\\Projects\\CourseProject\\Assets\\Scriptes\\PlatformGridHandlerScript.cs",
               "RelativeDocumentMoniker": "Assets\\Scriptes\\PlatformGridHandlerScript.cs",
@@ -283,7 +595,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 30,
               "Title": "MousePointScript.cs",
               "DocumentMoniker": "D:\\Unity\\Projects\\CourseProject\\Assets\\Scriptes\\MousePointScript.cs",
               "RelativeDocumentMoniker": "Assets\\Scriptes\\MousePointScript.cs",

@@ -4,7 +4,6 @@ using JetBrains.Annotations;
 using LevelEditor.MovingPlatformRoute;
 using Unity.VisualScripting;
 using UnityEngine;
-using static UnityEditor.FilePathAttribute;
 
 public class MovingPlatformEditor : MonoBehaviour
 {
@@ -184,7 +183,7 @@ public class MovingPlatformEditor : MonoBehaviour
 
     public void Update()
     {
-        if (Input.GetMouseButtonDown(1))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             EventManager.GetInstance().OnMovingPlatformEditModeExit();
         }

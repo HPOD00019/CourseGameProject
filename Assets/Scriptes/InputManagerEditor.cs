@@ -12,11 +12,13 @@ public class InputManagerEditor : MonoBehaviour
     public GameObject platform2;
     public GameObject platform3;
     public GameObject platform4;
+    public GameObject platform5;
 
     public GameObject platform1Phantom;
     public GameObject platform2Phantom;
     public GameObject platform3Phantom;
     public GameObject platform4Phantom;
+    public GameObject Platform5Phantom;
 
     private void Update()
     {
@@ -52,6 +54,12 @@ public class InputManagerEditor : MonoBehaviour
         {
             GetComponent<Spawner>().ObjectToSpawn = platform4;
             GetComponent<PlatformVisualizer>().SetNewObjectToTrack(platform4Phantom);
+        }
+
+        if (Input.GetKeyDown(KeyCode.Keypad5))
+        {
+            GetComponent<Spawner>().ObjectToSpawn = platform5;
+            GetComponent<PlatformVisualizer>().SetNewObjectToTrack(Platform5Phantom);
         }
     }
 }

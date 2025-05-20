@@ -18,7 +18,10 @@ public class EventManager
         return _instance;
     }
 
-
+    public void Clear()
+    {
+        _instance = null;
+    }
     public delegate void PlatformEditModeEnter();
     public delegate void PlatformEditModeExit();
     public delegate void LayerLevelChanged(int change);

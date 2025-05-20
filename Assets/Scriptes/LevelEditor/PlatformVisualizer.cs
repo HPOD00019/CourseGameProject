@@ -99,10 +99,14 @@ public class PlatformVisualizer : MonoBehaviour
 
     private void Update()
     {
-        DragObj();
-        if(Input.GetMouseButtonDown(0))
+        if (!GetComponent<PauseManager>().IsPaused) 
         {
-            SpawnObject();
-        }
+            DragObj();
+            if (Input.GetMouseButtonDown(0))
+            {
+                SpawnObject();
+            }
+        } 
+
     }
 }

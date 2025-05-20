@@ -6,6 +6,7 @@ public class BallControllScript : MonoBehaviour
 {
     public float speed = 5f;
     private Rigidbody obj;
+
     void Start()
     {
         obj = gameObject.GetComponent<Rigidbody>();
@@ -38,9 +39,15 @@ public class BallControllScript : MonoBehaviour
     {
         GameObject tuchedObj = collision.gameObject;
         TrapPlatformScript trapScript = tuchedObj.GetComponent<TrapPlatformScript>();
-        if (trapScript)
+        SpawnPlatform spawnPlatform = tuchedObj.GetComponent<SpawnPlatform>();
+
+        if (trapScript != null)
         {
             trapScript.Fall();
+        }
+        if(spawnPlatform != null)
+        {
+            spawnPlatform.PassLevel();
         }
     }
 }
